@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+
+<bean id="c1" class="com.ssi.Customer">
+	<property name="code" value="111"/>
+	<property name="cname" value="ABC"/>
+</bean>
+
+<bean id="p1" class="com.ssi.Product">
+	<property name="pcode" value="p501"/>
+	<property name="pname" value="XYZ"/>
+</bean>
+
+<bean class="com.ssi.MyPostProcessor"/>
+
+</beans>
